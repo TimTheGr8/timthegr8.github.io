@@ -1,0 +1,23 @@
+
+body {
+    background-image: url(backgroundimage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.jumbotron {
+    background-color: rgba(212, 219, 217, 0.8);
+    border-radius: 10px;
+    text-align: center;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-top: 32px;
+}
+
+.container {
+    color: #2B79BF;
+}
