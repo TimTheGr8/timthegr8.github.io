@@ -1,16 +1,16 @@
 body {
 	background-image: url("background.jpg");
 	background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
 }
 
 h1 {
 	text-align: center;
-	font-size: 80px;
+	font-size:10vw;
 }
 
 p {
-	font-size: 25px;
+	font-size: 2.5vw;
 }
 
 .text {
