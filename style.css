@@ -1,7 +1,7 @@
 body {
 	background-image: url("background.jpg");
 	background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100% 100%;
 }
 
 h1 {
@@ -11,6 +11,11 @@ h1 {
 
 p {
 	font-size: 2.5vw;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 .text {
