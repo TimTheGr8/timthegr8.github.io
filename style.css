@@ -4,6 +4,13 @@ body {
   background-size: cover;
 }
 
+/* For devices 400px and larger: */
+@media only screen and (min-device-width: 400px) {
+  body { 
+    background-image: url('fat-man.png'); 
+  }
+}
+
 h1 {
 	text-align: center;
 	font-size:10vw;
