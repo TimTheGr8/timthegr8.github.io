@@ -1,18 +1,14 @@
 body {
-	background-image: url("fat-man.png");
+	background-color: black;
 	background-repeat: no-repeat;
   background-size: cover;
-}
-
-/* For devices 400px and larger: */
-@media only screen and (min-device-width: 400px) {
-  body { 
-    background-image: url('background.jpg'); 
-  }
+  background-image: url('background.jpg');
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1 {
-	text-align: center;
 	font-size:10vw;
 }
 
@@ -21,10 +17,12 @@ p {
 }
 
 img {
-  max-width: 100%;
-  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .text {
 	color: white;
+	text-align: center;
 }
